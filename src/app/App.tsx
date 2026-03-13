@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { GameBoard } from "./components/GameBoard";
+import failJingle from "./assets/freesound_community-fail-jingle-stereo-mix-88784.mp3";
 
 // Sample questions and answers
 const sampleQuestions = [
@@ -49,9 +50,7 @@ export default function App() {
   };
 
   const playErrorSound = () => {
-    const audio = new Audio(
-      "/src/app/assets/freesound_community-fail-jingle-stereo-mix-88784.mp3",
-    );
+    const audio = new Audio(failJingle);
     audio.volume = 0.5;
     audio.play();
   };

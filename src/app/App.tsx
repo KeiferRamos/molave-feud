@@ -66,7 +66,7 @@ export default function App() {
 
   useEffect(() => {
     const handleKeyDown = (e: any) => {
-      if (e.key === "Enter") {
+      if (e.key === "Shift") {
         playErrorSound();
       } else {
         handleRevealAnswer(e.key - 1);
@@ -76,7 +76,7 @@ export default function App() {
     window.addEventListener("keydown", handleKeyDown);
 
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [currentQuestionIndex]);
+  }, [answers]);
 
   const handleHeaderClick = () => {
     playErrorSound();

@@ -16,22 +16,20 @@ const sampleQuestions = [
   },
   {
     answers: [
-      { text: "Pepperoni", points: 45, revealed: false },
-      { text: "Cheese", points: 28, revealed: false },
-      { text: "Sausage", points: 15, revealed: false },
-      { text: "Mushrooms", points: 8, revealed: false },
-      { text: "Olives", points: 3, revealed: false },
-      { text: "Peppers", points: 1, revealed: false },
+      { text: "Mateo 6:33", points: 45, revealed: false },
+      { text: "Apocalipsis 21:3,4", points: 28, revealed: false },
+      { text: "Awit 37:29", points: 15, revealed: false },
+      { text: "Filipos 4:6,7", points: 8, revealed: false },
+      { text: "2 Timoteo 3:16", points: 3, revealed: false },
+      { text: "2 Timoteo 3:1-5", points: 1, revealed: false },
     ],
   },
   {
     answers: [
-      { text: "Treasure", points: 41, revealed: false },
-      { text: "Eye patch", points: 22, revealed: false },
-      { text: "Parrot", points: 18, revealed: false },
-      { text: "Ship", points: 11, revealed: false },
-      { text: "Hook", points: 5, revealed: false },
-      { text: "Sword", points: 2, revealed: false },
+      { text: "Pano naging kayo ni Sister?", points: 41, revealed: false },
+      { text: "What age kayo naging CO?", points: 22, revealed: false },
+      { text: "Saang sirkito kayo galing?", points: 18, revealed: false },
+      { text: "Anong mga naging hamon?", points: 11, revealed: false },
     ],
   },
 ];

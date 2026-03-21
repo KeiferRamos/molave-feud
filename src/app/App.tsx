@@ -29,7 +29,17 @@ const sampleQuestions = [
       { text: "Pano naging kayo ni Sister?", points: 41, revealed: false },
       { text: "What age kayo naging CO?", points: 22, revealed: false },
       { text: "Saang sirkito kayo galing?", points: 18, revealed: false },
-      { text: "Anong mga naging hamon?", points: 11, revealed: false },
+      { text: "Ilang taon na kayong kasal?", points: 12, revealed: false },
+      {
+        text: "Saan first assigment nyo?",
+        points: 11,
+        revealed: false,
+      },
+      {
+        text: "anong memorable experience nyo?",
+        points: 8,
+        revealed: false,
+      },
     ],
   },
 ];
